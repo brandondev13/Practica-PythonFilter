@@ -3,7 +3,7 @@ from random import randint
 from datetime import datetime, timedelta
 
 # Fijar la fecha de inicio
-start_date = datetime(2020, 1, 2)
+start_date = datetime(2020, 1, 1)
 
 # Iterar sobre los días del año
 for i in range(1, 20):
