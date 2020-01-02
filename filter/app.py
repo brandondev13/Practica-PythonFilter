@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 start_date = datetime(2020, 1, 1)
 
 # Iterar sobre los días del año
-for i in range(1, 20):
+for i in range(1, 2):
     # Generar un número aleatorio de commits para el día actual
     for j in range(0, randint(1, 20)):
         # Calcular la fecha para el commit
