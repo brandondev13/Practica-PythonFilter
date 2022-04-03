@@ -3,10 +3,10 @@ from random import randint
 from datetime import datetime, timedelta
 
 # Fijar la fecha de inicio
-start_date = datetime(2019, 12, 31)
+start_date = datetime(2022, 4, 1)
 
 # Iterar sobre los días del año
-for i in range(1, 50):
+for i in range(1, 100):
     # Generar un número aleatorio de commits para el día actual
     for j in range(0, randint(1, 20)):
         # Calcular la fecha para el commit
